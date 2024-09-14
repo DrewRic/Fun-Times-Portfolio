@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #A0E7E5;
+  color: #ffc261; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav a { 
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav ul { 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li:hover {
+  color: #ff9d00; 
+}
